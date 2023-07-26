@@ -1,10 +1,10 @@
-import { Button, HStack } from '@chakra-ui/react'
+import { Button, Center, HStack } from '@chakra-ui/react'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
-    <HStack p={4} shadow={"base"} bgColor={"blackAlpha.900"} >
+    <HStack p={4} justify={"center"} shadow={"base"} bgColor={"blackAlpha.900"} >
         <Button variant={"unstyled"} color={"white"}>
             <Link to="/">Home</Link>
         </Button>

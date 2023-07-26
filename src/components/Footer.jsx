@@ -2,7 +2,7 @@ import { Avatar, Box, Stack, Text, VStack } from "@chakra-ui/react";
 
 const Footer = () => {
 
-    const avatarImg = "https://media.licdn.com/dms/image/C4D03AQG5kfV1Z2gbDA/profile-displayphoto-shrink_400_400/0/1653312889628?e=1689811200&v=beta&t=n6RH-oTJtWPhtu7xa81soyRiG33MJ3__dNek28hwl28"
+    const avatarImg = "https://lh3.googleusercontent.com/a/AAcHTtf8uqZjad_OqMJTesl5EkRyejmbxylX38nOuO08TaSPog=s360-c-no"
 
     return(
         <Box bgColor={"blackAlpha.900"} color={"whiteAlpha.700"} minH={"48"} px={"16"} py={["16", "8"]}>
